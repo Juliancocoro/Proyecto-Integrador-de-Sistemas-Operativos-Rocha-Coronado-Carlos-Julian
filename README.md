@@ -3,20 +3,25 @@ Simulador de Gestión de Memoria (RAM y Swap)
 Este proyecto consiste en un simulador de gestor de memoria para Sistemas Operativos, implementando técnicas de paginación, memoria virtual (Swapping) y traducción de direcciones.
 
 Integrantes del Equipo
+
 Terán Ramírez Leonardo Alonso
 Rocha Coronado Carlos Julián
 Argüelles Obregón René
+
 Instrucciones de Compilación y Ejecución
 El simulador está desarrollado en Python 3, por lo que no requiere compilación previa, solo interpretación.
 
 Requisitos previos
+
 Tener instalado Python 3.x.
 Asegúrese de que el archivo config.ini se encuentre en la misma carpeta que el código fuente.
 Pasos para ejecutar
 Abra una terminal o línea de comandos.
 Navegue hasta la carpeta src del repositorio:
+
 cd src
 Ejecute el script principal: python proyecto_memoria.py
+
 Explicacion del diseño y Estructura de Datos
 Para el desarrollo del simulador se eligieron estructuras nativas de Python por su eficiencia y facilidad de implementación:
 Tablas de Páginas: Se implementaron utilizando Diccionarios dentro de la estructura de cada proceso (PCB). Esto permite traducir el número de página lógica a su ubicación física (RAM o Swap) de manera directa.
