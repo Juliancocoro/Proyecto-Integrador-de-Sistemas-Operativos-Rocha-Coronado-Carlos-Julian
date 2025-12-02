@@ -4,9 +4,11 @@ Este proyecto consiste en un simulador de gestor de memoria para Sistemas Operat
 
 Integrantes del Equipo
 
-Terán Ramírez Leonardo Alonso
-Rocha Coronado Carlos Julián
-Argüelles Obregón René
+-Terán Ramírez Leonardo Alonso
+
+-Rocha Coronado Carlos Julián
+
+-Argüelles Obregón René
 
 Instrucciones de Compilación y Ejecución
 El simulador está desarrollado en Python 3, por lo que no requiere compilación previa, solo interpretación.
